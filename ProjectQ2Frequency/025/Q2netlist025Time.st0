@@ -1,0 +1,38 @@
+***** HSPICE -- I-2013.12-SP2-1 64-BIT (Jun 10 2014) win64 ******
+ Input File: U:\MATLAB\ProjectQ2\025\Q2netlist025.sp
+ lic:
+ lic: FLEXlm: v10.9.8
+ lic: USER:   yasith               HOSTNAME: C107-07
+ lic: HOSTID: bc5ff4456b75         PID:      2408
+ lic: Using FLEXlm license file:
+ lic: 27010@synopsys.engr.colostate.edu
+ lic: Checkout 1 hspice
+ lic: License/Maintenance for hspice will expire on 25-sep-2017/2016.06
+ lic: 1(in_use)/50(total) FLOATING license(s) on SERVER 27010@synopsys.engr.colostate.edu
+ lic:
+ init: begin read circuit files,  cpu clock=  6.20E-01
+       option post =     1.00
+ init: end read circuit files,  cpu clock=  6.28E-01 peak memory=        59 mb
+ init: begin check errors,  cpu clock=  6.28E-01
+ init: end check errors,  cpu clock=  6.33E-01 peak memory=        62 mb
+ init: begin setup matrix, pivot=     0 cpu clock=  6.33E-01
+       establish matrix -- done,  cpu clock=  6.35E-01 peak memory=        62 mb
+       re-order matrix -- done,  cpu clock=  6.39E-01 peak memory=        62 mb
+ init: end setup matrix,  cpu clock=  6.40E-01 peak memory=        62 mb
+ dcop: begin dcop,  cpu clock=  6.41E-01
+ dcop: end dcop,  cpu clock=  6.61E-01 peak memory=        62 mb  tot_iter=       3
+ output: U:\MATLAB\ProjectQ2\025\Q2netlist025Time.tr0
+ sweep: tran tran0    begin, stop_t=  1.00E-08 #sweeps=1001 cpu clock=  6.69E-01
+ tran: time= 1.0480E-09 tot_iter=      62 conv_iter=      31 cpu clock= 6.87E-01
+ tran: time= 2.0862E-09 tot_iter=      76 conv_iter=      38 cpu clock= 6.94E-01
+ tran: time= 3.4273E-09 tot_iter=      82 conv_iter=      41 cpu clock= 6.98E-01
+ tran: time= 4.4273E-09 tot_iter=      86 conv_iter=      43 cpu clock= 7.00E-01
+ tran: time= 5.1000E-09 tot_iter=      90 conv_iter=      45 cpu clock= 7.02E-01
+ tran: time= 6.0872E-09 tot_iter=     142 conv_iter=      71 cpu clock= 7.16E-01
+ tran: time= 7.0540E-09 tot_iter=     158 conv_iter=      79 cpu clock= 7.22E-01
+ tran: time= 8.0535E-09 tot_iter=     168 conv_iter=      84 cpu clock= 7.25E-01
+ tran: time= 9.1219E-09 tot_iter=     180 conv_iter=      90 cpu clock= 7.32E-01
+ tran: time= 1.0000E-08 tot_iter=     186 conv_iter=      93 cpu clock= 7.34E-01
+ sweep: tran tran0    end,  cpu clock=  7.35E-01 peak memory=        62 mb
+>info:         ***** hspice job concluded
+ lic: Release hspice token(s)

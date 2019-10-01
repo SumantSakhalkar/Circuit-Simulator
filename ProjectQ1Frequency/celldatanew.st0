@@ -1,0 +1,39 @@
+***** HSPICE -- I-2013.12-SP2-1 64-BIT (Jun 10 2014) win64 ******
+ Input File: U:\MATLAB\ProjectQ1\celldatanew.sp
+ lic:
+ lic: FLEXlm: v10.9.8
+ lic: USER:   yasith               HOSTNAME: C107-07
+ lic: HOSTID: bc5ff4456b75         PID:      11136
+ lic: Using FLEXlm license file:
+ lic: 27010@synopsys.engr.colostate.edu
+ lic: Checkout 1 hspice
+ lic: License/Maintenance for hspice will expire on 25-sep-2017/2016.06
+ lic: 1(in_use)/50(total) FLOATING license(s) on SERVER 27010@synopsys.engr.colostate.edu
+ lic:
+ init: begin read circuit files,  cpu clock=  9.00E-01
+       option post =     1.00
+ init: end read circuit files,  cpu clock=  9.53E-01 peak memory=        65 mb
+ init: begin check errors,  cpu clock=  9.53E-01
+ init: end check errors,  cpu clock=  9.66E-01 peak memory=        68 mb
+ init: begin setup matrix, pivot=     0 cpu clock=  9.66E-01
+       establish matrix -- done,  cpu clock=  9.71E-01 peak memory=        69 mb
+       re-order matrix -- done,  cpu clock=  1.00E+00 peak memory=        71 mb
+ init: end setup matrix,  cpu clock=  1.01E+00 peak memory=        72 mb
+ dcop: begin dcop,  cpu clock=  1.01E+00
+ dcop: end dcop,  cpu clock=  1.13E+00 peak memory=        72 mb  tot_iter=       4
+ output: U:\MATLAB\ProjectQ1\celldatanew.ac0
+ sweep: ac ac0    begin, #sweeps= 600 cpu clock=  1.17E+00
+ ac: frequency=    1.68E+07
+ ac: frequency=    9.85E+08
+ ac: frequency=    1.99E+09
+ ac: frequency=    2.99E+09
+ ac: frequency=    3.99E+09
+ ac: frequency=    4.99E+09
+ ac: frequency=    5.99E+09
+ ac: frequency=    7.00E+09
+ ac: frequency=    8.00E+09
+ ac: frequency=    9.00E+09
+ ac: frequency=    1.00E+10
+ sweep: ac ac0    end,  cpu clock=  6.31E+00 peak memory=        72 mb
+>info:         ***** hspice job concluded
+ lic: Release hspice token(s)
